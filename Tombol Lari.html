@@ -1,0 +1,46 @@
+<html>
+<head>
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    alert("Ahhhhh Makasih lop uu!!!")
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=345
+            Bn.style.left=100
+            flag=1
+        }
+}
+</script>
+
+</head>
+    <body>
+        <h1> *isi nama kalian* <h1>
+        <img src="https://media.giphy.com/media/26FLdmIp6wJr91JAI/giphy.gif" height="200" />
+        <h1> *isi pertanyaan* </h1>
+        <div id="By" style="position:absolute; left: 10px; top:345px; width:210px;
+            height:210px;">
+            <input type="button" value=" mauuu " onClick="f1()" />
+        </div>
+        <div ID="Bn" style="position:absolute; left:100px; top:345px; width:210px; height:210px;">
+            <input type="button" value=" g tuh " onMouseOver="f()" />
+        </div>
+
+    </body>
+</html>
